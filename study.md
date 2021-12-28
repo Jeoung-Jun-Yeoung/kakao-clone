@@ -85,3 +85,13 @@ tag를 외울 필요없이 예제를 보고 따라해보기!
 ### 2021/12/23
 
 휴식!!
+
+### 2021/12/28
+
+form 태그 form안에는 form하게 양식을 만들어 주어야 한다.
+
+가장 중요한 태그는 input
+form을 검증할수도 있다. requierd 속성을 이용
+속성을 통해 각 태그의 검증, 제어를 할 수 있다.
+
+<tagname attributename="value">content</tagname>

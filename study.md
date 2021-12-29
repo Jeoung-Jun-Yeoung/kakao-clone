@@ -95,3 +95,28 @@ form을 검증할수도 있다. requierd 속성을 이용
 속성을 통해 각 태그의 검증, 제어를 할 수 있다.
 
 <tagname attributename="value">content</tagname>
+
+
+### 2021/12/29
+
+<label for="website">Website</label>
+<input id="website" required placeholder="Name" type="date"/>
+
+가장 중요한 점은 for의 나오는 식별자와 id가 일치해야 한다는것이다. 태그당 id는 하나만 가질 수 있다. id값은 고유(유니크)해야 한다.
+
+css에서도 id를 통해 식별을 해서 스타일을 입혀줄 수 있다. 그렇기에 꼭 id값은 고유해야한다.
+
+
+div태그 - divison (경계) 기본적으로 화면을 나누는경계. div는 기본적으로 양옆에 있을수없다. 의미적으로는 값이 없는 태그
+
+header - div와 같은 역할을 수행한다. 그러나 의미가 있다. 
+
+<div id ="header"></div> == <header></header>
+
+같은 예시로 <main>도 div역할을 하지만 의미가 담김.
+
+전부 div로 해도 상관없지만, 의미가 담겨있지 않기에 이해의 어려움이 생긴다.
+
+그렇기 때문에 시멘틱한 코드를 작성하는것이 중요하다.
+
+<span> , <div> 등 nonsemantic 태그를 해도 사용해도 상관 없지만, 이해를 위해 시멘틱한 태그를 사용하는것이 좋다.

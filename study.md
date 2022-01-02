@@ -161,5 +161,7 @@ display속성을 이용한다.
 block의 특징
 
 1. margin - box의 경계 밖에 있는 공간.
+   값을 2개만 줄수도 있다. 값 두개의 의미는 상하 좌우. 1개만 줄경우에는 4방향
+   collapsing margin - body안에 div의 위 아래 마진이 body의 마진과 만나면 둘 중 큰 값의 마진으로 body에 적용된다.
 2. padding -
 3. border

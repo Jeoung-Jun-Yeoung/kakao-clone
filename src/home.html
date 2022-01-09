@@ -1,25 +1,50 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="kr">
-<head>
+  <head>
     <title>home - my first website</title>
     <style>
-        html {
-            background-color: tomato;
-        }
-        body {
-            margin: 20px 5px 12px 99px;
-            background-color: thistle;
-        }
-        div {
-            margin: 50px 15px;
-            height: 150px;
-            width: 150px;
-            background-color: whitesmoke;
-        }
+      * {
+        border: 2px solid black;
+      }
+      html {
+        background-color: tomato;
+      }
+      body {
+        padding: 20px;
+        margin: 5px;
+        background-color: thistle;
+      }
+      div {
+        margin: 10px;
+        padding: 10px;
+      }
+      #first {
+        height: 150px;
+        width: 150px;
+        background-color: whitesmoke;
+      }
+      #second {
+        height: 100px;
+        width: 100px;
+        background-color: green;
+      }
+      #thred {
+        height: 50px;
+        width: 50px;
+        background-color: indigo;
+      }
+      span {
+        border: 2px dotted yellow;
+      }
     </style>
-</head>
-<body>
-    <div></div>
-    
-</body>
+  </head>
+  <body>
+    <div id="first">
+      <div id="second">
+        <div id="thred">
+          <span> hello!! </span>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
